@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quick-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickSearch/QuickSearchWebPart.js",
+          "manifest": "./src/webparts/quickSearch/QuickSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuickSearchWebPartStrings": "lib/webparts/quickSearch/loc/{locale}.js"
+  }
+}
